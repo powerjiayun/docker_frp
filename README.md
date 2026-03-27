@@ -71,11 +71,11 @@ Debian (linux/386,linux/amd64,linux/arm/v5,linux/arm/v7,linux/arm64,linux/mips64
 Alpine:
 
     - latest
-    - 0.68-alpine3.22
-    - 0.68.0-alpine3.22
+    - 0.68-alpine3.23
+    - 0.68.0-alpine3.23
     - 0.68-alpine
     - 0.68.0-alpine
-    - alpine3.22
+    - alpine3.23
     - alpine
     - 0.68
     - 0.68.0

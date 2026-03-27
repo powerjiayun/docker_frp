@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM snowdreamtech/golang:1.24.9-alpine3.22 AS builder
+FROM --platform=$BUILDPLATFORM snowdreamtech/golang:1.25.8-alpine3.23 AS builder
 
 ARG TARGETOS
 ARG TARGETARCH
@@ -24,7 +24,7 @@ RUN apk add --no-cache make \
     && cp -rfv bin conf /root/
 
 
-FROM snowdreamtech/alpine:3.22.2
+FROM snowdreamtech/alpine:3.23.2
 
 # OCI annotations to image
 LABEL org.opencontainers.image.authors="Snowdream Tech" \
